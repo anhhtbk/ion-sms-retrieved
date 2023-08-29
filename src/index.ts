@@ -5,7 +5,7 @@ import type { AndroidSmsRetrievedPlugin } from './definitions';
 const AndroidSmsRetrieved = registerPlugin<AndroidSmsRetrievedPlugin>(
   'AndroidSmsRetrieved',
   {
-    web: () => import('./web').then(m => new m.AndroidSmsRetrievedWeb()),
+    // web: () => import('./web').then(m => new m.AndroidSmsRetrievedWeb()),
   },
 );
 

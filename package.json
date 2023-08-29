@@ -1,7 +1,7 @@
 {
   "name": "ion-sms-retrieved",
   "version": "0.0.1",
-  "description": "Implement Android SMS retrived",
+  "description": "Implement Android SMS retrieved",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anhhtbk/ion-sms-retrieved.git.git"
+    "url": "git+https://github.com/anhhtbk/ion-sms-retrieved.git"
   },
   "bugs": {
-    "url": "https://github.com/anhhtbk/ion-sms-retrieved.git/issues"
+    "url": "https://github.com/anhhtbk/ion-sms-retrieved/issues"
   },
   "keywords": [
     "capacitor",
