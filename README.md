@@ -9,6 +9,26 @@ npm install ion-sms-retrieved
 npx cap sync
 ```
 
+## Example
+
+[OTP screen](https://github.com/anhhtbk/ion-sms-retrieved/blob/main/example/src/app/home/home.page.ts)
+
+<video width="350" height="754" controls>
+
+  <source src="otp.mov" type="video/mp4">
+</video>
+
+```javascript
+// register to SMS receiver when screen appear
+AndroidSmsRetrieved.registerSmsReceiver();
+// unregister from SMS receiver when screen dissappear
+AndroidSmsRetrieved.unregisterSmsReceiver();
+// get otp from sms
+AndroidSmsRetrieved.startSmsUserConsent().then(({ otp }) => {
+  this.oneTimeCode = otp;
+});
+```
+
 ## API
 
 <docgen-index>
@@ -56,7 +76,7 @@ startSmsUserConsent() => Promise<{ otp: string; }>
 
 </docgen-api>
 
-# Ref
+## Ref
 
 [Auto read otp android user consent api](https://androidwave.com/auto-read-otp-android-user-consent-api/) \
 [Build capacitor plugin](https://devdactic.com/build-capacitor-plugin) \

@@ -63,7 +63,6 @@ export class HomePage implements OnInit, OnDestroy {
   }
 
   startTimer() {
-
     this.intervalSubscription = interval(this.tick).subscribe(() =>
       this.updateTimer()
     );
