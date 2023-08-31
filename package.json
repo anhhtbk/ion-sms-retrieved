@@ -1,7 +1,7 @@
 {
   "name": "ion-sms-retrieved",
-  "version": "0.0.1",
-  "description": "Implement Android SMS retrieved",
+  "version": "0.0.5",
+  "description": "Implement Android SMS retriever",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",

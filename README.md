@@ -13,27 +13,22 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`registerSmsReceiver()`](#registersmsreceiver)
 * [`unregisterSmsReceiver()`](#unregistersmsreceiver)
 * [`startSmsUserConsent()`](#startsmsuserconsent)
-* [`registerSmsReceiver()`](#registersmsreceiver)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### registerSmsReceiver()
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+registerSmsReceiver() => any
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+**Returns:** <code>any</code>
 
 --------------------
 
@@ -41,8 +36,10 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 ### unregisterSmsReceiver()
 
 ```typescript
-unregisterSmsReceiver() => void
+unregisterSmsReceiver() => any
 ```
+
+**Returns:** <code>any</code>
 
 --------------------
 
@@ -50,19 +47,10 @@ unregisterSmsReceiver() => void
 ### startSmsUserConsent()
 
 ```typescript
-startSmsUserConsent() => Promise<{ value: string; }>
+startSmsUserConsent() => Promise<{ otp: string; }>
 ```
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
-
---------------------
-
-
-### registerSmsReceiver()
-
-```typescript
-registerSmsReceiver() => void
-```
+**Returns:** <code>Promise&lt;{ otp: string; }&gt;</code>
 
 --------------------
 
