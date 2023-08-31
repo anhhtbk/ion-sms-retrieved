@@ -55,3 +55,10 @@ startSmsUserConsent() => Promise<{ otp: string; }>
 --------------------
 
 </docgen-api>
+
+# Ref
+
+[Auto read otp android user consent api](https://androidwave.com/auto-read-otp-android-user-consent-api/) \
+[Build capacitor plugin](https://devdactic.com/build-capacitor-plugin) \
+[Custom Native Android Code](https://capacitorjs.com/docs/android/custom-code) \
+[Create implementation in plugin](https://github.com/capawesome-team/capacitor-badge/blob/cf29ce1d68628a328076d7ed34d21a11ce6eb927/android/src/main/java/dev/robingenz/capacitor/badge/BadgePlugin.java#L17)
